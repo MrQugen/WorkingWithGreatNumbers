@@ -2,7 +2,7 @@
 
 class BigInteger
 {
-            private ulong[] data;
+        private ulong[] data;
 
         public static BigInteger Zero => new BigInteger("0");
         public static BigInteger One => new BigInteger("1");
